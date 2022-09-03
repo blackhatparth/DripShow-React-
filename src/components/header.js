@@ -9,7 +9,7 @@ function Header(){
                 <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
-                <a href="#">DripShow Store Finder</a>
+                <a href="#">DripShow Store Locator</a>
                 <a href="#">DripShow Delivery</a>
                 <a href="#">Digital Marketing</a>
             </div>
@@ -20,7 +20,7 @@ function Header(){
                 </button>
             <div className="dropdown-content">
                 <a href="#">Careers</a>
-                <a href="#">About us</a>
+                <a href="aboutus.js">About us</a>
                 <a href="#">Contact us</a>
             </div>
             </div>
