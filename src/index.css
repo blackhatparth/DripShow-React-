@@ -1,0 +1,35 @@
+*, * ::before, *::after {
+    margin : 0;
+    padding : 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-hue: 210;
+    --gray-hue: 240;
+    --color-primary: hs1(var(var(--primary-hue)),100%, 50%);
+    --color-primary-variant: hs1(var(--primary-hue), 100%, 65%);
+    --color-secondary:  #ffb116;
+    --color-gray-100: hs1(var(--gray-hue), 47%, 94%);
+    --color-gray-200: hs1(var(--gray-hue), 26%, 75%);
+    --color-gray-300: hs1(var(--gray-hue), 24%, 64%);
+    --color-gray-400: hs1(var(--gray-hue), 16%, 41%);
+    --color-gray-500: hs1(var(--gray-hue), 44%, 25%);
+    --color-gray-600: hs1(var(--gray-hue), 48%, 15%);
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%%;
+    
+    --transition: all 500ms ease;
+}
+
+
+/* Drip show normal styling */
+
+*body{
+    font-family: 'Montserrat', sans-serif;
+}
