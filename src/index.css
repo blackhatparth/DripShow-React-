@@ -1,6 +1,6 @@
 *, * ::before, *::after {
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
     border: 0;
     outline: 0;
     list-style: none;
@@ -11,15 +11,15 @@
 :root {
     --primary-hue: 210;
     --gray-hue: 240;
-    --color-primary: hs1(var(var(--primary-hue)),100%, 50%);
-    --color-primary-variant: hs1(var(--primary-hue), 100%, 65%);
+    --color-primary: hsl(var(--primary-hue), 100%, 50%);
+    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
     --color-secondary:  #ffb116;
-    --color-gray-100: hs1(var(--gray-hue), 47%, 94%);
-    --color-gray-200: hs1(var(--gray-hue), 26%, 75%);
-    --color-gray-300: hs1(var(--gray-hue), 24%, 64%);
-    --color-gray-400: hs1(var(--gray-hue), 16%, 41%);
-    --color-gray-500: hs1(var(--gray-hue), 44%, 25%);
-    --color-gray-600: hs1(var(--gray-hue), 48%, 15%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
+    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+    --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
+    --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+    --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
 
     --container-width-lg: 80%;
     --container-width-md: 90%%;
@@ -30,12 +30,12 @@
 
 /* Drip show normal styling */
 
-*body{
+body{
     font-family: 'Montserrat', sans-serif;
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600);
+    background: #F8F0E3;
 }
 
 .container{

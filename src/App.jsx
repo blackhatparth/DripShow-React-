@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './Pages/Home/Home'
-import About from './Pages/About Us/Aboutus'
 import Careers from './Pages/Careers/Careers'
 import Contact from './Pages/Contact Us/Contact'
 import Comingsoon from './Pages/Coming Soon/Comingsoon'
@@ -16,8 +15,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
+      <Home/>
       <Aboutus/>
-      
       <Careers/>
       <Contact/>
       <Comingsoon/>
