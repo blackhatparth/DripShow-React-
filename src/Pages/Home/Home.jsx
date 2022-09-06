@@ -1,7 +1,7 @@
 import MainHeader from '../../Components/MainHeader'
 import Steps from '../../Components/Steps'
 
-import './home.css'
+import './Home.css'
 
 
 const Home = () => {
