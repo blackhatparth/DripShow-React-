@@ -1,13 +1,14 @@
 import {MdSell} from 'react-icons/md'
+import SectionHead from './SectionHead'
 
 const Steps = () => {
   return (
     <section className="steps">
         <div className="container steps__container">
-            <div className="steps__head">
-                <span>{<MdSell/>}</span>
-                <h2>Open Store in 3 Easy Steps:</h2>
-            </div>
+            <SectionHead icon={<MdSell/>} title="Steps"/>
+        </div>
+        <div className="steps__wrapper">
+          
         </div>
     </section>
   )

@@ -56,3 +56,33 @@ export const links = [
 
 
 
+export const steps = [
+    {
+        id: 1,
+        icon: "/g",
+        title: "Program One",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/111"
+    },
+    {
+        id: 2,
+        icon: <SiOpenaigym/>,
+        title: "Program Two",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/222"
+    },
+    {
+        id: 3,
+        icon: <SiOpenaigym/>,
+        title: "Program Three",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/333"
+    },
+    {
+        id: 4,
+        icon: <SiOpenaigym/>,
+        title: "Program Four",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    }
+]
