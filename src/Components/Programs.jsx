@@ -1,14 +1,12 @@
 import {FaCrown} from 'react-icons/fa'
+import SectionHead from './SectionHead'
 
 const Programs = () => {
   return (
     <section className="programs">
         <div className="container programs__container">
-            <div className="programs__head">
-                <span>{<FaCrown/>}</span>
-                <h2>Building Store in 3 Easy Steps :</h2>
-            </div>  
-        </div>
+            <SectionHead icon={<FaCrown/>} title="Programs"/>
+        </div>  
     </section>
   )
 }
