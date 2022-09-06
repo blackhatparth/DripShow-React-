@@ -1,5 +1,6 @@
 import MainHeader from '../../Components/MainHeader'
-import Steps from '../../Components/Steps'
+import Programs from '../../Components/Programs'
+
 
 import './Home.css'
 
@@ -8,7 +9,7 @@ const Home = () => {
   return (
     <>
     <MainHeader/>
-    <Steps/>
+    <Programs/>
     </>
   )
 }

@@ -3,7 +3,7 @@ import {SiOpenaigym} from "react-icons/si"
 
 
 export const links = [
-    {
+    {   
         name: "Home",
         path: '/'
     },
@@ -56,12 +56,12 @@ export const links = [
 
 
 
-export const steps = [
+export const programs = [
     {
         id: 1,
-        icon: "/g",
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <SiOpenaigym/>,
+        title: "Program1",
+        info: "Program",
         path: "/programs/111"
     },
     {
