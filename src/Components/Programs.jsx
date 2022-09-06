@@ -10,7 +10,6 @@ const Programs = () => {
     <section className="programs">
         <div className="container programs__container">
             <SectionHead icon={<FaCrown/>} title="Build Store in 3 Easy Steps :"/>
-        </div>
         <div className="programs__wrapper">
             {
                 programs.map(({id, icon, title, info, path}) => {
@@ -24,6 +23,7 @@ const Programs = () => {
                     )
                 })
             }
+        </div>
         </div>  
     </section>
   )
