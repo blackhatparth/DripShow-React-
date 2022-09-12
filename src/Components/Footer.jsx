@@ -18,8 +18,8 @@ const Footer = () => {
                     info drip show
                 </p>
                 <div className="footer__socials">
-                    <a href="https://linkedin.com/" target="_blank" rel='noreferrer noopener'><FaLinkedin/></a>
-                    <a href="https://facebook.com/" target="_blank" rel='noreferrer noopener'><FaFacebookF/></a>
+                    <a href="https://www.linkedin.com/company/drip-show/" target="_blank" rel='noreferrer noopener'><FaLinkedin/></a>
+                    <a href="https://www.facebook.com/Drop.Ship.Drip/" target="_blank" rel='noreferrer noopener'><FaFacebookF/></a>
                     <a href="https://instagram.com/" target="_blank" rel='noreferrer noopener'><AiFillInstagram/></a>
                     <a href="https://youtube.com/" target="_blank" rel='noreferrer noopener'><AiFillYoutube/></a>
                 </div>
