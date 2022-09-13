@@ -5,7 +5,7 @@ const MainHeader = () => {
   return (
     <header className="main__header">
       <div className="container main__header-container">
-        <div className="main__header-left">
+      <div className="main__header-left">
           <h4>Hello Entrepreneur! , Start Your Journey with us</h4>
             <h1>Start Selling, Leave Backend On Us!</h1>
               <p>
@@ -21,6 +21,8 @@ const MainHeader = () => {
           </div>
         </div>
       </div>
+      
+      
     </header>
   )
 }

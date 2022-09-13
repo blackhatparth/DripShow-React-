@@ -67,7 +67,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
     .nav__toggle-btn {
-        display: inline-block;
+        display: block;
         background: transparent;
         font-size: 1.8rem;
         cursor: pointer;
@@ -81,9 +81,9 @@ nav {
     .nav__links {
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -8rem;
         flex-direction: column;
-        gap: 0;
+        gap: 0rem;
         perspective: 400px;
     }
 
