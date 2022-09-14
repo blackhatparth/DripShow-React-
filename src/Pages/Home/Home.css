@@ -364,7 +364,7 @@ footer {
 }
 
 .main__header-image, .main__header-circle {
-    display: none;
+    display: flex;
 }
 
 .main__header-container {
