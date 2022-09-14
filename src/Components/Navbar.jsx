@@ -5,9 +5,12 @@ import Logo from '../Images/logo.png'
 import {links} from '../data'
 import {GoThreeBars} from 'react-icons/go'
 import {MdOutlineClose} from 'react-icons/md'
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
     const [isNavShowing, setIsNavShowing] = useState(false);
+    const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
+
   
   
   return (
@@ -27,6 +30,22 @@ const Navbar = () => {
             })
           }
         </ul>
+        <li>{isAuthenticated && <p>{user.name}</p>}
+        </li>
+        {
+          isAuthenticated ? (
+          <li>
+            <button onClick={() => logout({ returnTo: window.location.origin })}>
+              Log Out
+            </button>
+          </li>
+          ) : (
+            <li>
+              <button onClick={() => loginWithRedirect()}>Log In</button>;
+            </li>
+          )}
+        
+
         <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev )}>
           {
             isNavShowing ? <MdOutlineClose/> : <GoThreeBars/>
